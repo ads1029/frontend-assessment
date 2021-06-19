@@ -22,7 +22,7 @@ Run `npm install` if you would like to modify the project. (So we will share the
 
 This frontend technical assessment is for the frontend developer code task from MindArc.
 
-Most of the tasks are finished with html, css, and Vanilla Javascript. The functionalities of both exercises are achieved without using any libraries. The layout of exercise 1 is achieved without using any libraries as well.
+The tasks are finished with html, css, and Vanilla Javascript. The functionalities of both exercises are achieved without using any libraries. The layout of exercise 1 is achieved without using any libraries as well.
 
 **Four libraries are still added in order to:**
 
