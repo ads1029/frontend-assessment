@@ -34,6 +34,10 @@ Reduce communication cost between team members (in a bigger project).
 
 Save my life.
 
+### Node HTTP Server
+
+Test out an alternative way to access exercise 2.
+
 ## Exercise 1
 
 As there is no clear instruction about how to deal with the layout bewteen desktop and mobile sizes, I decided to add an extra 2-columns layout for the screens whose pixel are between 1450px and 900px. As the width of the screen decreases, the layout will trim from 3-columns to 1-column. The smaller banner would replace the bigger one when the screen size hits 600px.
