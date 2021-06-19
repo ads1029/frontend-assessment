@@ -42,3 +42,11 @@ Thumbs.db
 *.sass-cache*
 node_modules
 /.idea
+
+
+# Added by MJ
+.cache/
+dist/
+.env
+coverage/
+.vscode/
