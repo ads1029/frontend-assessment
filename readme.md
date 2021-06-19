@@ -1,40 +1,46 @@
-Introduction
+# Instruction
+
+Thank you for giving me this opportunity to work with this task.
+
+## TLDR:
+
+### For exercise 1:
+
+Directly open `./src/ex1/ex1.html` to go through my first solution.
+
+### For exercise 2:
+
+DO NOT DIRECTLY OPEN `./src/ex2/ex2.html`.
+
+Due to CORS restrictions, a server is required to correctly access it with Javascript. You could either use [Node http server](https://github.com/http-party/http-server#readme) or [Live server extention in VScode](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to help you out.
+
+### PS:
+
+Run `npm install` if you would like to modify the project. (So we will share the same configuration.)
+
 ---
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, but Vue.js is preferred and jQuery is not recommended. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
 
-Exercise 1
----
-Build a responsive page based on the designs.
+This frontend technical assessment is for the frontend developer of mindarc.
 
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
+Most of the tasks are finished with html, css, and Vanilla Javascript. The functionalities of both exercises are achieved without using any libraries. The layout of exercise 1 is achieved without using any libraries as well.
 
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
+**Four libraries are still added in order to:**
 
-##### Assets
-* Desktop banner - http://via.placeholder.com/1920x650
-* Mobile banner - http://via.placeholder.com/600x600
-* Content images - http://via.placeholder.com/400x300
+### Eslint and Prettier
 
-Exercise 2
----
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
+Reduce communication cost between team members (in a bigger project).
 
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
+### Bootstrap
 
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+Save my life.
 
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+## Exercise 1
+
+As there is no clear instruction about how to deal with the layout bewteen desktop and mobile sizes, I decided to add an extra 2-columns layout for the screens whose pixel are between 1450px and 900px. As the width of the screen decreases, the layout will trim from 3-columns to 1-column. The smaller banner would replace the bigger one when the screen size hits 600px.
+
+## Exercise 2
+
+I use Vanilla Javascript to edit the html file and insert elements into it.
+Bootstrap is used in this exercise to display a better looking layout.
+
+The anwser of banana question is in the first tab of this exercise.
